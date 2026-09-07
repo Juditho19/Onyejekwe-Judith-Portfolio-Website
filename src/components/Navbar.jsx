@@ -1,19 +1,22 @@
-
+import styles from "./style.mjs"
 const Navbar = () => {
   return (
-    <div className='w-full flex py-6 justify-between items-center navbar'>
+    // button
+    <nav className='w-full flex py-3 '>
 
-      <ul className={` list-nonetext-[var(--color-primary)] flex  `} >
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Elevator Pitch</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Testimonial</a></li>
-        <li><a href="#">Contact me</a></li>
+      {/* mobile view first */}
+      <ul className={`w-full list-none text-[var(--color-primary)] flex justify-around items-center
+      md:justify-center md:gap-8 md:text-base  `} >
+        <li><a href="#" className={`${styles.navButtons}`} >Home</a></li>
+        <li><a href="#" className={`${styles.navButtons}`}>About Me</a></li>
+        <li><a href="#" className={`${styles.navButtons}`}>Elevator Pitch</a></li>
+        <li><a href="#" className={`${styles.navButtons}`}>Projects</a></li>
+        <li><a href="#" className={`${styles.navButtons}`}>Testimonial</a></li>
+        <li><a href="#" className={`${styles.navButtons}`}>Contact me</a></li>
       </ul>
 
 
-    </div>
+    </nav>
   )
 
 }
