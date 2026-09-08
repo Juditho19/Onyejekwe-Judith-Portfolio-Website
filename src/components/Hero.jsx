@@ -4,7 +4,10 @@ const Hero = () => {
   return (
     <div>
       {/* hero text side by side to image */}
-      <div className='block md:flex md:flex-col 
+
+
+      
+      {/* <div className='block md:flex md:flex-col 
         md:justify-center md:items-start text-left 
         space-y-4 md:space-y-6 '>
         <h3 className='font-medium text-base '>Quick Learner | Detail-Oriented |
@@ -16,7 +19,7 @@ const Hero = () => {
       </div>
       <div>
         <img src="/hero-image.jpg" alt="hero image" />
-      </div>
+      </div> */}
 
 
     </div>

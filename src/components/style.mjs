@@ -16,7 +16,7 @@ const styles = {
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
 
-  navButtons: "text-[var(--color-ashyBlack)] font-bold  text-sm hover:text-[var(--color-ashyBlack)]/70 transition-colors duration-200 "
+  navButtons: "text-[var(--color-ashyBlack)] font-bold  text-sm hover:text-[var(--color-ashyBlack)]/60 transition-colors duration-200 mx-4 "
 };
 
 export const layout = {
