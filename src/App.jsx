@@ -14,19 +14,20 @@ function App() {
   return (
   
     <>
-
-      <div className=' min-h-screen mx-auto px-4 
-      bg-[var(--color-cream)] text-[var(--color-ashyBlack)]' >
+      {/* come bck to the navbar later */}
+      {/* <div className=' min-h-screen mx-auto px-4 
+      bg-[var(--color-surface)] text-[var(--color-textPrimary)]' >
         <Navbar />
-      </div>
-      <div className=' min-h-screen mx-auto px-4 
-      bg-[var(--color-ashyBlack)] text-[var(--color-cream)]'>
+      </div> */}
+      <div className='min-h-screen bg-base text-text-primary'>
+        <main className='mx-auto flex min-h-screen max-w-7xl items-center px-6 py-16 sm:px-10 lg:px-16'>
         <Hero />
         {/* <About />
           <ElevatorPitch />
           <Projects />
           <Testimonial />
           <Contact /> */}
+        </main>
       </div>
       
     

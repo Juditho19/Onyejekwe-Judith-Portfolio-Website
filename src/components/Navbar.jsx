@@ -13,23 +13,26 @@ const navLinks= [
 
 ];
 
-// hide the menu
-const [isOpen, setIsOpen ] = useState(false);
+
 
 
 
 const Navbar = () => {
+
+  // hide the menu
+  const [isOpen, setIsOpen ] = useState(false);
+
   return (
     // button
     <nav className='w-full flex py-3  '>
 
       
         {/*desktop view */}
-        <ul className="hidden list-none text-[var(--color-primary)] 
+        <ul className="hidden list-none text-[var(--color-surface)] 
         md:flex md:justify-around md:items-center md:gap-8 md:text-base 
         m-0 p-0">
           {navLinks.map((link) => (
-              <li key={navLinks.name}>
+              <li key={link.name}>
                 <a href={link.href} className={styles.navButtons}>
                   {link.name}
                 </a>   

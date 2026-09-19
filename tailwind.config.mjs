@@ -7,10 +7,28 @@ export default {
   theme: {
     extend: {
       colors: {
-        ashyBlack: "#060606",
-        cream: "#fff6ea",
-        paleOrange: "#df8e56",
-        lightOrange: "#fff6ea",
+        // ashyBlack: "#060606",
+        // cream: "#fff6ea",
+        // paleOrange: "#df8e56",
+        // lightOrange: "#fff6ea",
+
+
+
+        // Backgrounds & Canvas
+        base: "#0B0F19",        
+        surface: "#111827",
+        surfaceBorder: "#1F2937", 
+        
+
+        // Typography
+        textPrimary: "#F9FAFB", 
+        textMuted: "#9CA3AF", 
+
+        // Accents & Actions
+        primary: "#6366F1",    
+        primaryHover: "#4F46E5",
+        accent: "#06B6D4",
+
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
