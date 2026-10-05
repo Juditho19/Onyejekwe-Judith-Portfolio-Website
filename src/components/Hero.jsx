@@ -14,11 +14,11 @@ const Hero = () => {
             Front-end developer · Available for freelance
           </p>
 
-          <h1 className="text-4xl font-semibold leading-tight sm:text-5xl lg:text-6xl text-text-primary">
+          <h1 className={styles.heading1}>
             I build fast, clean websites that win customers.
           </h1>
 
-          <p className="text-base font-medium leading-7 text-text-muted sm:text-lg max-w-2xl">
+          <p className={styles.paragraph}>
             Student developer turning ideas into responsive, accessible interfaces for small businesses and startups.
           </p>
 

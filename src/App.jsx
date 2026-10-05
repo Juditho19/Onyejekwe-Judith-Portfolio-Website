@@ -2,8 +2,6 @@ import './index.css';
 import {
   Navbar,
   Hero,
-  About,
-  ElevatorPitch,
   Projects,
   Testimonial,
   Contact,
@@ -22,8 +20,8 @@ function App() {
       
       <main className='w-full min-h-screen bg-base text-text-primary'>
       <Hero />
-      {/* <About />
-        <ElevatorPitch />
+      <Projects className="bg-white text-text-primary" />
+      {/*
         <Projects />
         <Testimonial />
         <Contact /> */}
