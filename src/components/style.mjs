@@ -16,8 +16,9 @@ const styles = {
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
 
-  navButtons: "text-white bg-buttons font-bold text-sm hover:text-white hover:bg-buttons/60 transition-colors duration-200 mx-4 px-4 py-2 rounded",
-  regularButtons: "text-white bg-buttons font-bold text-sm hover:text-white hover:bg-buttons/70 transition-colors duration-200 mx-4 px-4 py-2 rounded",
+  navButtons: "text-white bg-primary font-bold text-sm hover:text-white hover:bg-primary/60 transition-colors duration-200 mx-4 px-4 py-2 rounded",
+  regularButtons: "text-white bg-primary font-bold text-sm hover:text-white hover:bg-primary/70 transition-colors duration-200 mx-4 px-6 py-3 rounded",
+  regularButtons2: "text-text-primary bg-surface border-2 border-surface-border font-bold text-sm hover:bg-surface/70 transition-colors duration-200 mx-4 px-6 py-3 rounded",
 };
 
 export const layout = {

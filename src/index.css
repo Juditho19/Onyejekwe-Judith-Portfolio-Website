@@ -3,22 +3,18 @@
 @import "tailwindcss";
 
 
-
-@import "tailwindcss";
-
 @theme {
   /* Colors */
-  --color-base: #0B0F19;
-  --color-surface: #111827;
-  --color-surface-border: #1F2937;
-  --color-buttons: #6366F1;
+  --color-base: #060A14;
+  --color-surface: #0E1626;
+  --color-surface-border: #1E293B;
+  --color-buttons: #0284C7;
 
-  --color-text-primary: #FFFFFF;
-  /* --color-text-secondary: #F9FAFB; */
-  --color-text-muted: #9CA3AF;
+  --color-text-primary: #F8FAFC;
+  --color-text-muted: #94A3B8;
 
-  --color-primary: #6366F1;
-  --color-primary-hover: #4F46E5;
+  --color-primary: #2563EB;
+  --color-primary-hover: #1d4ed8;
   --color-accent: #06B6D4;
 
   /* Font Family */
@@ -33,6 +29,15 @@
   --breakpoint-xl: 1700px;
 }
 
-.font-poppins {
-  font-family: "Poppins", sans-serif;
+
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #0B0F19;
+  overflow-x: hidden;
 }
