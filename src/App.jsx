@@ -22,7 +22,7 @@ function App() {
       <Hero />
       <Projects className="bg-white text-text-primary" />
       {/*
-        <Projects />
+        
         <Testimonial />
         <Contact /> */}
       </main>
