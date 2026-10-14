@@ -1,8 +1,11 @@
 import React from 'react'
+import styles from './style.mjs';
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <section id="contact" className={`w-full ${styles.paddingY}`}>
+      <div className={styles.container}>Contact</div>
+    </section>
   )
 }
 

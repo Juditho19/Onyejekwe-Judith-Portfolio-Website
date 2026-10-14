@@ -6,19 +6,21 @@ const Projects = () => {
   return (
     <section id="projects"
       className={`bg-base w-full flex flex-col justify-center items-center ${styles.paddingY} bg-base text-text-primary`}>
-      <h2 className={`${styles.heading2}`}  >
-        My Projects
-      </h2>
-      {/* card section for project */}
-      <article  className="w-full max-w-4xl flex flex-col md:flex-row gap-6 p-6 rounded-lg border-2 border-surface-border bg-surface/30">
-        <img src={project1} alt="Project 1 " />
-        <h3>Optimal Healthcare Platform</h3>
+      <div className={`${styles.container} flex flex-col items-center`}>
+        <h2 className={` ${styles.heading2} mb-8 text-center`}>
+          My Projects
+        </h2>
+        {/* card section for project */}
+        <article className="w-full max-w-3xl flex flex-col gap-4 p-4 rounded-lg border-2 border-surface-border bg-surface/30
+                            items-center justify-center text-left text-text-muted">
+        <img src={project1} alt="Project 1 " width="100%" size="medium" className="rounded-lg" />
+        <h3 className={styles.heading3}> Optimal Healthcare Platform</h3>
         {/* summary */}
-        <p>
+        <p className={styles.paragraph}>
          A modern mobile diagnostics web platform providing structured clinical service catalogs and an automated appointment booking workflow. Built with responsive UI layouts to streamline patient onboarding from service discovery to doorstep lab scheduling.
         </p>
 
-        <ul aria-label="Technologies used">
+        <ul aria-label="Technologies used" className="list-disc list-inside text-">
           <li>React</li>
           <li>JavaScript (ES6+)</li>
           <li>Tailwind CSS</li>
@@ -42,7 +44,8 @@ const Projects = () => {
             GitHub Code ↗
           </a>
         </div>
-      </article>
+        </article>
+      </div>
     </section>
   )
 }

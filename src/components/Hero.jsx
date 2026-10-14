@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-base">
       
       {/* 2-Column Grid Container */}
-      <div className="relative z-10 w-full max-w-6xl mx-auto px-6 sm:px-10 lg:px-12 py-20 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div className={`relative z-10 ${styles.container} py-20 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center`}>
         
         {/* Left Column: Text & Buttons (Takes 7 of 12 columns on desktop) */}
         <div className="lg:col-span-7 flex flex-col items-start text-left space-y-5">
